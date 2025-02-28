@@ -35,7 +35,7 @@ AUTH_CHANNEL = environ.get('AUTH_CHANNEL')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://atlas-sample-dataset-load-67bd0ac923d7d86c9349ffa4:jalam2022@jsrjsingh.3aksm.mongodb.net/?retryWrites=true&w=majority&appName=Jsrjsingh")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jsrj:20030928@Jalam@jsrj.4fxu5.mongodb.net/?retryWrites=true&w=majority&appName=jsrj")
 DATABASE_NAME = environ.get('DATABASE_NAME', "jsrjsingh")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mn_files')
 
